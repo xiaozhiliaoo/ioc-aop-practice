@@ -5,7 +5,9 @@ import org.picocontainer.gems.monitors.CommonsLoggingComponentMonitor;
 import org.picocontainer.lifecycle.JavaEE5LifecycleStrategy;
 import org.picocontainer.lifecycle.ReflectionLifecycleStrategy;
 import org.picocontainer.lifecycle.StartableLifecycleStrategy;
+import org.picocontainer.monitors.ComposingMonitor;
 import org.picocontainer.monitors.ConsoleComponentMonitor;
+import org.picocontainer.monitors.LifecycleComponentMonitor;
 
 /**
  * @author lili
@@ -25,7 +27,8 @@ public class Apple implements Startable {
     }
 
     public static void main(String[] args) {
-        MutablePicoContainer pico = new DefaultPicoContainer((ComponentFactory) new StartableLifecycleStrategy(new CommonsLoggingComponentMonitor()));
+        MutablePicoContainer pico = new DefaultPicoContainer(new ComposingMonitor(new LifecycleComponentMonitor()));
+        //MutablePicoContainer pico = new DefaultPicoContainer(new StartableLifecycleStrategy(new CommonsLoggingComponentMonitor()));
         pico.addComponent(Apple.class);
         pico.start(); // start gets called
         Apple a = pico.getComponent(Apple.class);
