@@ -1,2 +1,2 @@
-# picocontainer-practice
-picocontainer-practice
+# ioc-practice
+ioc-practice
