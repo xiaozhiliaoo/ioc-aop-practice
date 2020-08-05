@@ -1,8 +1,8 @@
-package org.lili;
+package org.lili.picocontainer;
 
-import org.lili.test1.Apple;
-import org.lili.test1.Juicer;
-import org.lili.test1.Peeler;
+import org.lili.picocontainer.test1.Apple;
+import org.lili.picocontainer.test1.Juicer;
+import org.lili.picocontainer.test1.Peeler;
 import org.picocontainer.DefaultPicoContainer;
 import org.picocontainer.MutablePicoContainer;
 

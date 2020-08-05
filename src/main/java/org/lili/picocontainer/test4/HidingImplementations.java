@@ -1,12 +1,4 @@
-package org.lili.test4;
-
-import org.lili.test1.Apple;
-import org.picocontainer.DefaultPicoContainer;
-import org.picocontainer.PicoBuilder;
-import org.picocontainer.behaviors.ImplementationHiding;
-
-import static org.picocontainer.Characteristics.HIDE_IMPL;
-import static org.picocontainer.behaviors.Behaviors.implementationHiding;
+package org.lili.picocontainer.test4;
 
 /**
  * @author lili

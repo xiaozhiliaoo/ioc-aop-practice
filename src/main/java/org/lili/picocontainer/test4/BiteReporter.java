@@ -1,10 +1,6 @@
-package org.lili.test4;
+package org.lili.picocontainer.test4;
 
-import org.lili.test1.Apple;
-import org.picocontainer.DefaultPicoContainer;
-import org.picocontainer.PicoBuilder;
 import org.picocontainer.behaviors.Intercepted;
-import org.picocontainer.behaviors.Intercepting;
 
 /**
  * @author lili

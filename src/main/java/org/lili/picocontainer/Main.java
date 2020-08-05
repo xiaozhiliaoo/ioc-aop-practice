@@ -1,4 +1,4 @@
-package org.lili;
+package org.lili.picocontainer;
 
 import org.picocontainer.DefaultPicoContainer;
 import org.picocontainer.MutablePicoContainer;

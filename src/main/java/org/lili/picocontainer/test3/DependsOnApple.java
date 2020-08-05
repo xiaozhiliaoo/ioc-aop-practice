@@ -1,4 +1,4 @@
-package org.lili.test3;
+package org.lili.picocontainer.test3;
 
 /**
  * @author lili

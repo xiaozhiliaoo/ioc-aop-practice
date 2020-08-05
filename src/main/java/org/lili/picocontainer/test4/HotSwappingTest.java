@@ -1,7 +1,6 @@
-package org.lili.test4;
+package org.lili.picocontainer.test4;
 
 import org.picocontainer.DefaultPicoContainer;
-import org.picocontainer.gems.behaviors.HotSwappable;
 import org.picocontainer.gems.behaviors.HotSwapping;
 
 import java.util.HashMap;

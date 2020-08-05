@@ -1,4 +1,4 @@
-package org.lili.test1;
+package org.lili.picocontainer.test1;
 
 import org.picocontainer.Startable;
 

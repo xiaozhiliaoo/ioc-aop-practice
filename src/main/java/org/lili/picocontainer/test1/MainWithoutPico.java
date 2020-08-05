@@ -1,8 +1,4 @@
-package org.lili.test1;
-
-import org.lili.test1.Apple;
-import org.lili.test1.Juicer;
-import org.lili.test1.Peeler;
+package org.lili.picocontainer.test1;
 
 /**
  * @author lili

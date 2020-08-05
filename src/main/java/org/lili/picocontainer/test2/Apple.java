@@ -1,12 +1,7 @@
-package org.lili.test2;
+package org.lili.picocontainer.test2;
 
 import org.picocontainer.*;
-import org.picocontainer.gems.monitors.CommonsLoggingComponentMonitor;
-import org.picocontainer.lifecycle.JavaEE5LifecycleStrategy;
-import org.picocontainer.lifecycle.ReflectionLifecycleStrategy;
-import org.picocontainer.lifecycle.StartableLifecycleStrategy;
 import org.picocontainer.monitors.ComposingMonitor;
-import org.picocontainer.monitors.ConsoleComponentMonitor;
 import org.picocontainer.monitors.LifecycleComponentMonitor;
 
 /**
